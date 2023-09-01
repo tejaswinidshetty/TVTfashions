@@ -1,0 +1,104 @@
+@import url('https://fonts.google.com/specimen/Dancing+Script');
+*{
+    /* font-family: 'Dancing Script', cursive; */
+font-family: 'Kaisei Decol', serif;
+/* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Kaisei Decol', serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    text-decoration: none;
+    list-style: none;
+font-weight: 25px;}
+/* 
+*{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    background: #f4f6e0;
+    font-size: 14px;
+}
+.cont{
+    width: 80%;
+    margin: 50px auto;
+}
+.cont_box{
+    background: #fff;
+    display: flex;
+}
+.cont_left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.cont_right{
+    flex-basis: 40%;
+    padding: 40px;
+    background:#dd99eb;
+    color: #141313;
+    font-weight: 50px;
+}
+h1{
+    margin-bottom: 40px;
+}
+.cont p{
+    margin-bottom: 40px;
+}
+.input_row{
+display: block;
+justify-content:space-around;
+margin-bottom: 20px;
+/* padding: 2px; */
+/* color: #000; */
+}
+.input_row .input_group{
+    flex-basis: 45%;
+    padding: 10px;
+}
+input{
+    width: 100%;
+    /* justify-content:space-between; */
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc ;
+    outline: none;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:#1c00b5 ;
+}
+
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(20, 0, 181, 0.3) ;
+}
+.cont_left h3{
+    color: 1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.cont_right h3{
+    /* color: #1c00b5; */
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+
